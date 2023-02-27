@@ -1,0 +1,112 @@
+html {
+    font-family: poppins;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 500px;
+    min-width: 350px;
+    min-height: 650px;
+    border: solid 1px #222222;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url(./assets/5432755.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-img {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 10%);
+    width: 200px;
+    height: 200px;
+    border: solid 5px #ffffff;
+    border-radius: 100px;
+    box-shadow: 0px 1px 10px #00000062;
+    overflow: hidden;
+}
+
+.profile-img img {
+    width: 100%;
+}
+
+.info {
+    padding: 5%;
+}
+
+.text {
+    margin-top: 30%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.7em;
+    font-weight: 500;
+    line-height: 0.8em;
+}
+
+p {
+    color: #3b3b3b;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social a img {
+    width: 25px;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 200ms ease-in-out 100ms;
+}
+
+.social a img:hover {
+    transform: scale(0.8);
+    opacity: 1;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sec {
+    border: solid 1px #000000;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.pri {
+    border: solid 1px #362085;
+    background-color: #362085;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+}
