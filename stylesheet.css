@@ -21,6 +21,14 @@ body {
     transition: all 200ms ease-in-out 100ms;
 }
 
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        height: 100%;
+        width: 90%;
+    }
+    
+}
+
 .wrapper:hover {
     height: 650px;
 }
@@ -29,7 +37,7 @@ body {
     position: relative;
     width: 100%;
     height: 250px;
-    background-image: url(./assets/5432755.jpg);
+    background-image: url(./assets/adekoye\ adewale\ profile\ bg\ image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
