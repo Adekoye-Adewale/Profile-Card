@@ -12,11 +12,17 @@ body {
 .wrapper {
     width: 500px;
     min-width: 350px;
-    min-height: 650px;
+    height: 420px;
     border: solid 1px #222222;
+    background-color: #36208507;
     border-radius: 20px;
     overflow: hidden;
     padding-bottom: 5%;
+    transition: all 200ms ease-in-out 100ms;
+}
+
+.wrapper:hover {
+    height: 650px;
 }
 
 .header {
@@ -41,6 +47,15 @@ body {
     box-shadow: 0px 1px 10px #00000062;
     overflow: hidden;
 }
+
+/* .verified {
+    position: absolute;
+    width: 25px;
+    z-index: 9;
+    top: 20%;
+    right: 0;
+    transform: translate(0, 0p);
+} */
 
 .profile-img img {
     width: 100%;
