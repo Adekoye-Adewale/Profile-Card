@@ -14,6 +14,11 @@ html {
     --pri-color: #9800BE;
 }
 
+::selection {
+    background-color: var(--pri-color);
+    color: #FCF5FE;
+}
+
 body {
     font-family: 'BeVietnamPro-Medium';
     margin: 0;
@@ -58,6 +63,7 @@ body {
     transform: translate(50%, 10%);
     width: 210px;
     height: 210px;
+    cursor: pointer;
 }
 
 .profile-circle {
@@ -73,14 +79,18 @@ body {
 .verified {
     position: absolute;
     width: 25% !important;
+    max-width: 52.5px;
+    max-height: 52.5px;
     bottom: 0;
     right: 0;
     transform: translate(-10%, -10%);
 }
 
-.profile-img img {
+.profile-image {
     width: 100%;
     max-width: 200px;
+    height: 100%;
+    max-height: 217.75px;
     aspect-ratio: 200/217.75;
     cursor: pointer;
     object-fit: cover;
