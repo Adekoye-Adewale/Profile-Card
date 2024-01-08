@@ -80,11 +80,13 @@ body {
 
 .verified {
     position: absolute;
+    bottom: 0;
+    right: 0;
     width: 25% !important;
     max-width: 52.5px;
     max-height: 52.5px;
-    bottom: 0;
-    right: 0;
+    aspect-ratio: 1;
+    object-fit: cover;
     transform: translate(-10%, -10%);
 }
 
@@ -225,6 +227,10 @@ p {
 
     .verified {
         transform: translate(-30%, -45%);
+    }
+
+    .text {
+        margin-top: 60px;
     }
     
 }
